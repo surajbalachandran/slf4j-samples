@@ -2,9 +2,15 @@
 
 Simple Tutorial project on slf4j
 
-## Setup
+## Getting Started
 
-The pre-requisites for this project are:
-1. Maven 3.0.5+
-2. JDK 1.7+
+##Requirement
+
+* Maven 3.0.5+
+* JDK 1.7+
+
+```bash
+git clone git@github.com:surajbalachandran/slf4j-samples.git
+mvn clean install
+```
 
