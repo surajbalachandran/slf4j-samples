@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
  * Test class to test the MessagePrinter
  */
 public class MessagePrinterTest {
-
+    
     /**
      * This is the method to test the printMessage method.
      * @param The message param to this test method.

@@ -1,6 +1,6 @@
 # slf4j-samples
 
-Simple Tutorial project on slf4j
+Simple Tutorial project on slf4j tied with logback as the logging mechanism.
 
 ## Getting Started
 

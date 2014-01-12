@@ -1,0 +1,15 @@
+<configuration debug="true">
+
+    <appender name="STDOUT-APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%d{yyyyMMdd-HH:mm:ss.SSSZ}|%thread|%-5level|%logger|%msg%n</Pattern>
+        </encoder>
+    </appender>
+    
+    <logger name="com.sb" level="INFO" />
+    
+    <root>
+        <level value="INFO" />
+        <appender-ref ref="STDOUT-APPENDER" />
+    </root>
+</configuration>

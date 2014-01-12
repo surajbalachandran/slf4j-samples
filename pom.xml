@@ -20,6 +20,7 @@
 		<version.jdk.range>[1.7,)</version.jdk.range>
 		<version.maven.range>[3.0.5,)</version.maven.range>
 		<version.slf4j>1.7.5</version.slf4j>
+		<version.logback>1.0.13</version.logback>
 
 	</properties>
 
@@ -94,10 +95,10 @@
 				<version>${version.slf4j}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-simple</artifactId>
-				<version>${version.slf4j}</version>
-			</dependency>
+	        	<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+				<version>${version.logback}</version>
+	        </dependency>
 			
 			<!-- Testing -->
 			<dependency>
