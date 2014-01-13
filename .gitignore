@@ -4,3 +4,4 @@
 .classpath
 **test-output/
 **build/
+**/*.log
